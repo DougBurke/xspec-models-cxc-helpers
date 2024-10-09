@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xspec_models_cxc_helpers"
-version = "0.0.1"
+version = "0.1.0"
 authors = [
   {name = "Douglas Burke", email = "dburke@cfa.harvard.edu"}
 ]
@@ -35,8 +35,3 @@ test = [
   "pytest",
   "parse-xspec"
 ]
-
-# This is a namespaced package so that it can be installed with
-# xspec-models-cxc. It also contains package data. This should be
-# automatically supported by setuptools with pyproject.toml.
-#

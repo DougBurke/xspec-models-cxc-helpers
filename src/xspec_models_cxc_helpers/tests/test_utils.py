@@ -14,7 +14,7 @@ import pytest
 
 from parse_xspec import models
 
-import xspec_models_cxc.utils as xu
+import xspec_models_cxc_helpers as xu
 
 
 def test_model_path():

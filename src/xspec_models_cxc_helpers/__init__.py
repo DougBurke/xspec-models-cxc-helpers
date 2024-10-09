@@ -37,7 +37,7 @@ info = logging.getLogger(__name__).info
 warning = logging.getLogger(__name__).warning
 
 # Access to the data location via importlib.resources.files
-DATALOC: str = "xspec_models_cxc.utils.data"
+DATALOC: str = "xspec_models_cxc_helpers.data"
 
 # In case it ever becomes useful to tweak this list after loading the
 # module. See get_xspec_libs().
