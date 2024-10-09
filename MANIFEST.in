@@ -1,0 +1,3 @@
+include src/xspec_models_cxc/utils/data/xspec.h
+include src/xspec_models_cxc/utils/data/xsudmget.cxx
+include src/xspec_models_cxc/utils/data/xsudmget64.cxx
