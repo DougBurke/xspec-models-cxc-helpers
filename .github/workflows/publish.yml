@@ -28,7 +28,7 @@ jobs:
 
   publish-to-pypi:
     name: Publish
-    if: startsWith(githuib.ref, 'refs/tags/')
+    if: startsWith(github.ref, 'refs/tags/')
     needs:
       - build
     runs-on: ubuntu-latest
