@@ -53,6 +53,7 @@ jobs:
 
   publish-to-testpypi:
     name: Publish (TestPyPI)
+    if: startsWith(github.ref, 'skip/all/runs/for/now/')
     needs:
       - build
     runs-on: ubuntu-latest
